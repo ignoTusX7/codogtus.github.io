@@ -1,0 +1,56 @@
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #818181;
+        }
+
+        ::-webkit-scrollbar {
+            width: 7px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #939697;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            /* border-radius: 20px; */
+            border: 6px solid transparent;
+            /* background-clip:inherit; */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 20px;
+        }
+
+        .courses :hover {
+            /* text-decoration: underline; */
+            border-bottom: 1px solid rgb(143, 143, 143);
+            /* transform: scale(1.09); */
+            transform: translate(0px, -2px);
+        }
+
+        .courses-in :hover {
+
+            font-weight: bold;
+        }
+
+        .hovernav {
+            font-weight: bold;
+
+        }
+
+        .hovernav :hover {
+            transform: translate(0px, -2px);
+        }
+
+        .btnstyle {
+            border: 2px solid black;
+            background-color: transparent;
+        }
+
+        .btnstylehover :hover {
+            color: white;
+            background-color: blueviolet;
+        }

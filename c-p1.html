@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resp.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sidebars/">
+    <link rel="icon" href="img/C_Language_Logo.svg" type="image/icon type">
+    <title>C Language</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+    <link rel="stylesheet" href="css/c.css">
+    <style>
+        body{
+            scroll-behavior: smooth;
+        }
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sticky-top" id="navbarMain">
+        <!-- main nav bar -->
+        <nav class="navbar bg-body-tertiary navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img style="width: 10rem;" src="img/main_logo.png" alt="codoGtus"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 1.3rem; font-size: 20px;">
+                        <li class="nav-item hovernav">
+                            <a class="nav-link active " style="color: blueviolet;" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item hovernav">
+                            <a class="nav-link active " style="color: blueviolet;" aria-current="page"
+                                href="course.html">Course</a>
+                        </li>
+                        <li class="nav-item hovernav">
+                            <a class="nav-link " style="color: blueviolet;" href="#">Notes</a>
+                        </li>
+                        <li class="nav-item hovernav">
+                            <a class="nav-link " style="color: blueviolet;" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item hovernav">
+                            <a class="nav-link " style="color: blueviolet;" href="contactus.html">Contact us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- course navbar -->
+        <div class="d-none d-lg-block">
+            <ul class="nav justify-content-center py-2"
+                style="background-color: blueviolet; color: white; text-decoration: none; height: 60px; font-family:monospace;">
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" aria-current="page" href="c-p1.html">C</a>
+                </li>
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" href="#">C++</a>
+                </li>
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" href="#">Python</a>
+                </li>
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" href="">HTML</a>
+                </li>
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" href="">CSS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="container-fluid d-flex flex-column">
+        <!-- aside -->
+        <div class="sidebar overflow-y-scroll d-none d-lg-block" style="max-height:550px;">
+            <ul class="list-unstyled ps-0">
+                <li class="mb-1 bv">
+                    <a class="head d-inline-flex text-decoration-none rounded fs-3 fw-bold color-bv">Introduction</a>
+                    <div class="collapse show mx-3" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li class=""><a href="c-p1.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Overview of C</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Getting
+                                    Started
+                                    with C</a></li>
+                            <li class=""><a href="c-p3.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Basic
+                                    Structure
+                                    & syntax </a></li>
+                            <li class=""><a href="c-p3.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Constants, Variables and
+                                    data Types:</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list-unstyled ps-0">
+                <li class="mb-1 bv">
+                    <a class="head d-inline-flex text-decoration-none rounded fs-3 fw-bold color-bv">Operators in C</a>
+                    <div class="collapse show mx-3" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li class=""><a href="c-p1.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Introduction of
+                                    operators</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Arithmetic operator</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Relational operator</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Logical operator</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Assignment operator</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Increment and Decrement
+                                    operator</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Conditional operator</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Bit-wise operator</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Special operator</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list-unstyled ps-0">
+                <li class="mb-1 bv">
+                    <a class="head d-inline-flex text-decoration-none rounded fs-3 fw-bold color-bv">Expression in C</a>
+                    <div class="collapse show mx-3" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li class=""><a href="c-p1.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Introduction of
+                                    operators</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Arithmetic
+                                    Expression</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Evaluation of
+                                    expressions</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Precedence of arithmetic
+                                    operators</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Type conversions in
+                                    expressions</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Operator precedence and
+                                    associativity</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Mathematical
+                                    functions.</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="list-unstyled ps-0">
+                <li class="mb-1 bv">
+                    <a class="head d-inline-flex text-decoration-none rounded fs-3 fw-bold color-bv">Managing Input and
+                        Output Operators</a>
+                    <div class="collapse show mx-3" id="home-collapse">
+                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                            <li class=""><a href="c-p1.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">Introduction</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">reading a character</a>
+                            </li>
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">writing a character</a>
+                            </li>
+
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">formatted input</a>
+                            </li>
+
+                            <li class=""><a href="c-p2.html"
+                                    class="d-inline-flex text-decoration-none rounded color-bv">formatted output</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="p-4 page1">
+                <a href="c-p1.html" class="page" hidden>Previous</a>
+                <a href="c-p2.html" class="page float-end">Next</a>
+            </div>
+
+            <h2 class="fs-1">Introduction</h2>
+
+            <hr />
+            <article class="" style="text-align: justify;">
+                <h4>C Overview</h4>
+                <article class="fs-5 mx-4">
+                    <p>
+                        C is a powerful and versatile programming language that has been used in a wide range of
+                        applications since its creation in the early 1970s. Developed by Dennis Ritchie at Bell Labs, C
+                        has become one of the most popular programming languages in the world, with a large and active
+                        community of users and developers.
+                    </p>
+                    <p>
+                        One of the key features of C is its efficiency and low-level programming capabilities. C allows
+                        programmers to manipulate memory directly, providing a high degree of control over the
+                        computer's hardware. This has made C a popular choice for developing operating systems, device
+                        drivers, and other software that interacts closely with hardware.
+                    </p>
+                    <p>Another strength of C is its simplicity. The language has a small and straightforward syntax,
+                        making it easy to learn and use. C provides a rich set of features for high-level programming,
+                        including functions, arrays, pointers, structures, and dynamic memory allocation. These features
+                        allow programmers to create complex and sophisticated programs, while still maintaining control
+                        over the underlying hardware.</p>
+                    <p>
+                        C has also influenced many other programming languages, including C++, Java, and Python. C++ is
+                        an extension of C that adds object-oriented programming capabilities, while Java and Python have
+                        borrowed syntax and structure from C.
+                    </p>
+                    <p>Despite its many strengths, C is not without its challenges. Because it allows programmers to
+                        manipulate memory directly, it is more prone to errors and bugs than some other programming
+                        languages. In addition, C programs can be difficult to port to different platforms, as they
+                        often rely on hardware-specific features.</p>
+                    <p>Despite these challenges, C remains an important programming language, particularly in the areas
+                        of system programming, embedded systems, and applications that require high performance. Its
+                        simplicity, efficiency, and low-level programming capabilities have made it a favorite of
+                        programmers for decades, and it shows no signs of losing its popularity anytime soon.</p>
+                </article>
+
+            </article>
+            <div class="p-4 page1">
+                <a href="c-p1.html" class="page " hidden>Previous</a>
+                <a href="c-p2.html" class="page float-end">Next</a>
+            </div>
+
+
+    </main>
+    <p class="float-end mb-1">
+        <a href="#">Back to top</a>
+    </p>
+
+    <!-- footer -->
+    <div class="container float-end ftr" style="max-width: 80%; margin-left: 270px; margin-right: 0;">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-1 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <span class="bi" width="30" height="24"><img style="width: 2.5rem;" src="img/mainlogo.png"
+                            alt="codoGtus"></span>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2023 Codogtus, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted fa fa-twitter fa-2x text-decoration-none" href="#"
+                        target="_blank"></a></li>
+                <li class="ms-3"><a class="text-muted fa fa-github fa-2x text-decoration-none"
+                        href="https://github.com/ignoTusX7/" target="_blank"></a></li>
+                <li class="ms-3"><a class="text-muted fa fa-instagram fa-2x text-decoration-none"
+                        href="https://www.instagram.com/realignotus/" target="_blank"></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+<!-- script -->
+<!-- <script src="/js/bootstrap.bundle.js"></script> -->
+<script src="js/courses.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+
+</html>

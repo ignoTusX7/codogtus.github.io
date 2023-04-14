@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resp.css">
+    <link rel="icon" href="img/mainlogo.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Cambo&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        html{
+            scroll-behavior:smooth;
+        }
+    </style>
+    <title>Welcome to codoGtus</title>
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <div class="sticky-top" id="navbarMain">
+        <!-- main nav bar -->
+        <nav class="navbar bg-body-tertiary navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img style="width: 10rem;" src="img/main_logo.png" alt="codoGtus"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="gap: 1.3rem; font-size: 20px;">
+                        <li class="nav-item hovernav">
+                            <a class="nav-link active " style="color: blueviolet;" aria-current="page"
+                                href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item hovernav">
+                            <a class="nav-link active " style="color: blueviolet;" aria-current="page"
+                                href="course.html">Course</a>
+                        </li>
+                        <li class="nav-item hovernav">
+                            <a class="nav-link " style="color: blueviolet;" href="#">Notes</a>
+                        </li>
+                        <li class="nav-item hovernav">
+                            <a class="nav-link " style="color: blueviolet;" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item hovernav">
+                            <a class="nav-link " style="color: blueviolet;" href="contactus.html">Contact us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- course navbar -->
+        <div class="d-none d-lg-block">
+            <ul class="nav justify-content-center py-2"
+                style="background-color: blueviolet; color: white; text-decoration: none; height: 60px; font-family:monospace;">
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" aria-current="page" href="c-p1.html">C</a>
+                </li>
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" href="#">C++</a>
+                </li>
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" href="#">Python</a>
+                </li>
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" href="">HTML</a>
+                </li>
+                <li class="nav-item courses">
+                    <a class="nav-link courses-in" style=" color: white;" href="">CSS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="">
+        <!-- coursel -->
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade d-lg-block d-none" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/car1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Welcome to Codogtus.com</h5>
+                        <p>place to learn coding.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/car2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Easiest methods</h5>
+                        <p>teach you programming with easiest methods.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/car3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Find out best Course</h5>
+                        <p>access any course for free.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- cards -->
+        <div class="container mw-100 d-block d-lg-flex d-xl-flex gap-2 " style="font-family: monospace;">
+            <div class="card m-auto my-5 p-2" style="width: auto;">
+                <img src="img/C_Language_Logo.svg" class="card-img-top img-fluid h-100 m-auto"
+                    style="max-width: 10rem;" alt="c language">
+                <div class="card-body">
+                    <h5 class="card-title">C Language</h5>
+                    <p class="card-text" style="text-align: justify; font-size: 15px;">C is a general-purpose,
+                        high-level
+                        programming language widely used for system programming, embedded systems, and software
+                        development.
+                        It has a simple, elegant syntax, powerful features, and is a popular language for learning
+                        programming concepts.</p>
+                    <div class="btnstylehover d-flex justify-content-center"><a href="c-p1.html" class="btn btnstyle">Click to
+                            learn</a></div>
+                </div>
+            </div>
+            <div class="card m-auto my-5 p-2" style="width: auto;">
+                <img src="img/C++_Logo.svg" class="card-img-top img-fluid h-100 m-auto" style="max-width: 10rem;"
+                    alt="c++ language">
+                <div class="card-body">
+                    <h5 class="card-title">C++</h5>
+                    <p class="card-text" style="text-align: justify; font-size: 15px;">C++ is an extension of the C
+                        programming language that adds object-oriented features. It is widely used in software
+                        development,
+                        system programming, and game development, due to its versatility and ability to handle low-level
+                        memory manipulation.</p>
+                    <div class="btnstylehover d-flex justify-content-center"><a href="#" class="btn btnstyle">Click to
+                            learn</a></div>
+                </div>
+            </div>
+            <div class="card m-auto my-5 p-2" style="width: auto;">
+                <img src="img/Python-logo-notext.svg" class="card-img-top img-fluid h-100 m-auto"
+                    style="max-width: 10rem;" alt="python">
+                <div class="card-body">
+                    <h5 class="card-title">Python</h5>
+                    <p class="card-text" style="text-align: justify; font-size: 15px;">Python is a powerful, versatile
+                        and
+                        easy-to-learn programming language that is widely used for web development, data analysis,
+                        artificial intelligence and scientific computing. With a wide range of libraries and frameworks,
+                        it
+                        offers endless possibilities for developers.</p>
+                    <div class="btnstylehover d-flex justify-content-center"><a href="#" class="btn btnstyle">Click to
+                            learn</a></div>
+                </div>
+            </div>
+            <div class="card m-auto my-5 p-2" style="width: auto;">
+                <img src="img/car4.png" class="card-img-top w-auto img-fluid h-100 m-auto" style="max-width: 10rem;"
+                    alt="webdevelopment">
+                <div class="card-body">
+                    <h5 class="card-title">Web development</h5>
+                    <p class="card-text" style="text-align: justify; font-size: 15px;">Web development is the process of
+                        creating and maintaining websites. It involves the use of languages such as HTML, CSS, and
+                        JavaScript, as well as frameworks and CMSs, to build and design functional, responsive and
+                        user-friendly web pages.</p>
+                    <div class="btnstylehover d-flex justify-content-center"><a href="#" class="btn btnstyle">Click to
+                            learn</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-1 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <span class="bi" width="30" height="24"><img style="width: 2.5rem;" src="img/mainlogo.png"
+                            alt="codoGtus"></span>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2023 Codogtus, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted fa fa-twitter fa-2x text-decoration-none" href="#"
+                        target="_blank"></a></li>
+                <li class="ms-3"><a class="text-muted fa fa-github fa-2x text-decoration-none"
+                        href="https://github.com/ignoTusX7/" target="_blank"></a></li>
+                <li class="ms-3"><a class="text-muted fa fa-instagram fa-2x text-decoration-none"
+                        href="https://www.instagram.com/realignotus/" target="_blank"></a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+  <!-- script -->
+<!-- <script src="/js/bootstrap.bundle.js"></script> -->
+<script src="js/courses.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+
+</html>
